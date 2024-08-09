@@ -1,0 +1,48 @@
+/*
+color-primario: #99ff00;
+color-secundario: #46453a;
+color-terciario: #8123de;
+color-cuarto: #11ff88;
+*/
+
+
+
+/* contacto */
+
+.form {
+
+    font-size: medium;
+
+}
+
+
+
+.input, .form {
+
+    color: #99ff00;
+
+}
+
+
+/* lista de todas las paginas */
+.lista {
+
+    font-size: 40px;
+    color: #8123de;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;}
+
+/* quita los puntos a las listas*/
+
+.li 
+{
+    padding: 0;
+    list-style-type: none;
+
+
+}
+
+.ul 
+{
+    padding: 0;
+    list-style-type: none;
+}
