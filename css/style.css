@@ -29,8 +29,7 @@ background: linear-gradient(rgb(134, 63, 134), rgb(47, 47, 129));
 .header .sub-contact {
 
 font-size: 20px;
-color: yellow;
-}
+background-color: yellow;}
 
 
 
@@ -42,6 +41,8 @@ color: yellow;
 
 body {
     margin: 0;
+    padding: 1px;
+    background-color: rgb(238, 238, 238);
 }
 
 
@@ -171,6 +172,50 @@ height: 50%;
 
 
 }
+
+.inicioterminos {
+    color: rgb(240, 240, 59);
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+/*suscripciones*/
+
+
+.listasuscripcion {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 0%;
+    gap: 10px;
+    color: rgb(197, 59, 197);
+
+    
+    }
+
+.listasuscripcion .listasub {
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
