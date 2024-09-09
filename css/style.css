@@ -74,6 +74,8 @@ body {
       border: 8px solid, color(black);
       border-radius: 10px;
       width: 100%;
+      
+background: linear-gradient(rgb(110, 110, 110), rgb(58, 58, 58));
     }
     
     .lista .contenidolista {
@@ -88,11 +90,31 @@ body {
     
     .lista .detalleslista {
         font-size: 14px;
-        color: black;
+        color: rgb(255, 255, 255);
         display: flex;
-        justify-content: center;
+        justify-content: center;        
     }
     
+    /*IMAGENES LISTAS  //////////////////////////////////////////////*/
+
+    .textura {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+    }
+
+    .textura1 {
+        background-image: url("../img/textura.jpg");
+        height: 200px;
+        margin: 10px;
+    }
+
+    .textura1:hover{
+        transition: 550ms;
+        scale: 1.10;
+
+    }
+
     
 /*----------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
@@ -118,27 +140,41 @@ body {
     padding: 10px;
 }
 
-.logos-redes:hover{
-    background-color:  rgb(73, 73, 73);
-    transition: 340ms;
-    scale: 1.2;
-}
-
 .logo-ig {
     height: 60px;
     width: 60px;
     margin-right: 18%;
+}
+
+.logo-ig:hover{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 340ms;
 }
 .logo-cafe{
     height: 45px;
     width: 45px;
 
 }
+.logo-cafe:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 340ms;
+}
+
 .logo-x {
     height: 60px;
     width: 60px;
     margin-left: 18%;
     margin-right: 2%;
+}
+.logo-x:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 340ms;
+
 }
 
 
@@ -193,20 +229,24 @@ body {
     color: rgb(240, 240, 240);
     margin: 0%;
     padding: 0%;
-    
+    margin-bottom: 5px;
 }
 .copy {
     margin: 0%;
     padding: 0%;
     color: rgb(240, 240, 240);
-
-
+    margin-right: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .inicioterminos {
     color: rgb(240, 240, 240);
     margin: 0%;
     padding: 0%;
+    
+    margin-left: 3%;
+    margin-top: 20px;
 }
 
 
@@ -279,7 +319,7 @@ body {
         margin: 0px;
         padding: 0px;
         font-size: 20px;
-        color: #8123de;
+        color: #d6d6d6;
         font-family: Impact, 'Arial Narrow Bold', sans-serif;
         list-style-type: none; 
         display: flex;
@@ -302,15 +342,15 @@ body {
     
     
     .lista .contenidolista {
-        background-color: yellow;
+        background-color: rgb(39, 39, 39);
         padding: 5px;
     
     }
     
     .lista .detalleslista {
-        font-size: 14px;
-        color: black;
-         ;
+        font-size: 20px;
+        color: rgb(236, 236, 236);
+         
     }
 
 
